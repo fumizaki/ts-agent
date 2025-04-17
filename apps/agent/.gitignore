@@ -1,0 +1,23 @@
+output.txt
+node_modules
+
+# production
+/build
+dist
+
+# testing
+/coverage
+
+# mastra
+.mastra
+
+# misc
+.DS_Store
+*.pem
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+*.db
+*.db-*
